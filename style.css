@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container{
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.currency{
+    display: flex;
+    margin: 5px;
+    line-height: 24px;
+    position: relative;
+    padding: 22px 8px;
+}
+
+.menu__items{
+    font-size: 10px;
+    font-weight: 300;
+    color: #fff;
+    list-style-type: none;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    line-height: 45px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu__link{
+    text-decoration: none;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
