@@ -15,12 +15,12 @@
         <div class="container">
             <nav class="nav">
                 <div class="currency">
-                    <button class="currency_button">CURRENCY 
+                    <button class="currency_button">CURRENCY
                         <img src="images/logo_1.svg">
                     </button>
                 </div>
-            
-                     <ul class="menu">
+
+                <ul class="menu">
                     <li class="menu__items">
                         <a class="menu__link"
                             href="https://ap-golmart.myshopify.com/account/login?return_url=%2Faccount">MY ACCOUNT</a>
@@ -38,9 +38,31 @@
                         <a class="menu__link" href="https://ap-golmart.myshopify.com/account/register">REGISTER</a>
                     </li>
                 </ul>
-                
-               
             </nav>
+            <div class="main_header">
+                <a href="https://ap-golmart.myshopify.com/cdn/shop/t/3/assets/logo.png?v=51092750559892024521445499116" itemprop="url">
+                    <div class="header_logo">
+                        <img src="images/logo.webp" alt="AP Golmart" itemprop="logo">
+                    </div>
+                </a>
+                <div class="header_search-box">
+                    <form action="/search" class="search_form">
+                        <input class="search_box" type="search" placeholder="search ...">
+                        <button class="search_button" type="submit">
+                            <img src="images/search_logo.svg">
+                        </button>
+                    </form>
+                </div>
+                <div class="shopping_cart">
+                    <a href="https://ap-golmart.myshopify.com/cart" id="CartToggle">
+                        <img src="images/icon_minicart2.webp" class="shopping-cart_logo">
+                        <span class="cart-title">Shopping cart</span>
+                        <span id="CartCount">0</span>
+                        <span>items - </span>
+                        <span id="CartCost"><span class="money" data-currency-usd="$0.00">$0.00</span></span>
+                    </a>
+                </div>
+            </div>
             <script src="script.js"></script>
         </div>
     </header>

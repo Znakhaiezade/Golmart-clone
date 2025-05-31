@@ -448,6 +448,7 @@ template {
 *{
     margin: 0;
     padding: 0;
+    font-family:  poppins;
 
 }
 
@@ -473,7 +474,6 @@ template {
     padding-left: 5px;
     line-height: 28px;
     position: relative;
-    font-family: poppins;
     font-size: 11px;
     color: #fff;
     background-color: #D54539;
@@ -497,7 +497,6 @@ template {
 }
 
 .menu__link{
-    font-family: poppins;
     font-weight: 300;
     text-decoration: none;
     padding: 5px 10px;
@@ -511,3 +510,91 @@ template {
     justify-content: space-between;
 }
 
+.main_header{
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+
+}
+
+.header_logo{
+  padding: 28px 0;
+  text-align: left;
+  font-size: 12PX;
+
+}
+
+.search_box{
+  background-color: #fff;
+  height: 42px;
+  line-height: 40px;
+  padding: 2px 60px 0 15px;
+  border: 0px;
+  display: inline;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.header_search-box{
+  position: relative;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  margin-top: 28px;
+  padding: 15px;
+}
+
+.search_form{
+  position: absolute;
+}
+
+.search_button{
+  width: 45px;
+  height: 42px;
+  line-height: 40px;
+  background-color: #222;
+  color: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.shopping_cart{
+  border-left: 1px solid rgba(255,255 , 255, 0.2);
+  margin: 20px 0;
+  padding: 12px 0 12px 30px;
+}
+
+#CartToggle{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.shopping-cart_logo{
+  margin-right: 13px;
+  float: left;
+  width: 30px;
+  height: 33px;
+  
+}
+
+ .cart-tittle{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  line-height: 16px;
+  
+}
