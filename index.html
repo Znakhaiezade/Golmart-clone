@@ -12,35 +12,41 @@
 <body>
 
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <div class="currency">
-                    <button class="currency_button">CURRENCY
-                        <img src="images/logo_1.svg">
-                    </button>
-                </div>
+        <div class="tag-bar_header">
+            <div class="container">
+                <nav class="nav">
+                    <div class="currency">
+                        <button class="currency_button">CURRENCY
+                            <img src="images/logo_1.svg">
+                        </button>
+                    </div>
 
-                <ul class="menu">
-                    <li class="menu__items">
-                        <a class="menu__link"
-                            href="https://ap-golmart.myshopify.com/account/login?return_url=%2Faccount">MY ACCOUNT</a>
-                    </li>
-                    <li class="menu__items">
-                        <a class="menu__link" href="https://ap-golmart.myshopify.com/pages/wishlist">WISHLIST</a>
-                    </li>
-                    <li class="menu__items">
-                        <a class="menu__link" href="https://ap-golmart.myshopify.com/cart">CHECK OUT</a>
-                    </li>
-                    <li class="menu__items">
-                        <a class="menu__link" href="https://ap-golmart.myshopify.com/account/login">LOGIN</a>
-                    </li>
-                    <li class="menu__items">
-                        <a class="menu__link" href="https://ap-golmart.myshopify.com/account/register">REGISTER</a>
-                    </li>
-                </ul>
-            </nav>
+                    <ul class="menu">
+                        <li class="menu__items">
+                            <a class="menu__link"
+                                href="https://ap-golmart.myshopify.com/account/login?return_url=%2Faccount">MY
+                                ACCOUNT</a>
+                        </li>
+                        <li class="menu__items">
+                            <a class="menu__link" href="https://ap-golmart.myshopify.com/pages/wishlist">WISHLIST</a>
+                        </li>
+                        <li class="menu__items">
+                            <a class="menu__link" href="https://ap-golmart.myshopify.com/cart">CHECK OUT</a>
+                        </li>
+                        <li class="menu__items">
+                            <a class="menu__link" href="https://ap-golmart.myshopify.com/account/login">LOGIN</a>
+                        </li>
+                        <li class="menu__items">
+                            <a class="menu__link" href="https://ap-golmart.myshopify.com/account/register">REGISTER</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
             <div class="main_header">
-                <a href="https://ap-golmart.myshopify.com/cdn/shop/t/3/assets/logo.png?v=51092750559892024521445499116" itemprop="url">
+                <a href="https://ap-golmart.myshopify.com/cdn/shop/t/3/assets/logo.png?v=51092750559892024521445499116"
+                    itemprop="url">
                     <div class="header_logo">
                         <img src="images/logo.webp" alt="AP Golmart" itemprop="logo">
                     </div>
@@ -49,22 +55,77 @@
                     <form action="/search" class="search_form">
                         <input class="search_box" type="search" placeholder="search ...">
                         <button class="search_button" type="submit">
-                            <img src="images/search_logo.svg">
+                            <img class="magnifier" src="images/search_logo.svg">
                         </button>
                     </form>
                 </div>
                 <div class="shopping_cart">
-                    <a href="https://ap-golmart.myshopify.com/cart" id="CartToggle">
-                        <img src="images/icon_minicart2.webp" class="shopping-cart_logo">
-                        <span class="cart-title">Shopping cart</span>
-                        <span id="CartCount">0</span>
-                        <span>items - </span>
-                        <span id="CartCost"><span class="money" data-currency-usd="$0.00">$0.00</span></span>
-                    </a>
+                    <div class="blockcart_top">
+                        <div class="title-cart">
+                            <img class="shopping-cart_logo" src="images/icon_minicart2.webp">
+                            <div class="cart-inner">
+                                <span class="cart-title">shopping cart</span>
+                                <span class="hidden-count">0</span>
+                                <span class="cart-items">items -</span>
+                                <span class="money">$0.00</span>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
+
             </div>
-            <script src="script.js"></script>
         </div>
+    </header>
+    <header class="header_2">
+       <div class="container_2">
+         <div id="apolloMainNav">
+            <div class="row_no-gutter">
+                    <div class="categories">
+                        <div class="categories-title">
+                            <span class="categories_text">categories</span>
+                            <img src="images/logo_1.svg">
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="navbar-header">
+            <div class="navbar-menu1">
+                <li class="navbar-menu_item">
+                    <a class="navbar-menu_link" href="https://ap-golmart.myshopify.com/"><b>home</b></a>
+                    <img class="navbar-menu_logo" src="images/logo_2.svg">
+                </li>
+            </div>
+            <div class="navbar-menu">
+                <li class="navbar-menu_item">
+                    <a class="navbar-menu_link" href="https://ap-golmart.myshopify.com/collections/all"><b>shop</b></a>
+                    <img class="navbar-menu_logo" src="images/logo_2.svg">
+                </li>
+            </div>
+            <div class="navbar-menu">
+                <li class="navbar-menu_item">
+                    <a class="navbar-menu_link" href="https://ap-golmart.myshopify.com/collections/all"><b>pages</b></a>
+                    <img class="navbar-menu_logo" src="images/logo_2.svg">
+                </li>
+            </div>
+            <div class="navbar-menu">
+                <li class="navbar-menu_item">
+                    <a class="navbar-menu_link" href="https://ap-golmart.myshopify.com/blogs/news"><b>blog</b></a>
+                    <img class="navbar-menu_logo" src="images/logo_2.svg">
+                </li>
+            </div>
+            <div class="navbar-menu">
+                <li class="navbar-menu_item">
+                    <a class="navbar-menu_link" href="https://ap-golmart.myshopify.com/collections"><b>theme features</b></a>
+                    <img class="navbar-menu_logo" src="images/logo_2.svg">
+                </li>
+            </div>
+        </div>
+       </div>
+        </div>
+    </header>
+    <script src="script.js"></script>
+    </div>
     </header>
 
 </body>
